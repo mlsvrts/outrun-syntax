@@ -13,7 +13,7 @@
     "punk",
     "purple"
   ],
-  "repository": "https://github.com/jac14b/outrun-syntax",
+  "repository": "https://github.com/jac14b/outrun-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
