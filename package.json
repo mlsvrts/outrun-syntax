@@ -1,11 +1,17 @@
 {
   "name": "outrun-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.1.1",
+  "description": "A theme for rainy nights and neon lights.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "outrun",
+    "neon",
+    "glow",
+    "retro",
+    "punk",
+    "purple"
   ],
   "repository": "https://github.com/atom/outrun-syntax",
   "license": "MIT",

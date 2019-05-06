@@ -56,7 +56,6 @@ atom-text-editor {
 
 
 // Syntax styles
-
 .syntax--property-name{
   color: lighten(@blue-green, 9%);
   .glow(12px, darken(@blue-green, 35%));
@@ -74,8 +73,8 @@ atom-text-editor {
   }
 
   &.syntax--operator {
-    color: @blue-green;
-    .glow(1px, lighten(@blue-green, 1%))
+    color: lighten(#369050, 34%);
+    .glow(8px, lighten(#477253, 2%))
   }
 
   &.syntax--other.syntax--special-method {
@@ -194,7 +193,8 @@ atom-text-editor {
   }
 
   &.syntax--function  {
-    color: @cyan;
+    color: lighten(@light-red, 8%);
+    .glow(10px, @sat-red);
 
     &.syntax--any-method {
       color: @blue;
