@@ -1,7 +1,7 @@
 {
   "name": "outrun-syntax",
   "theme": "syntax",
-  "version": "0.1.1",
+  "version": "0.0.0",
   "description": "A theme for rainy nights and neon lights.",
   "keywords": [
     "syntax",
@@ -13,7 +13,7 @@
     "punk",
     "purple"
   ],
-  "repository": "https://github.com/atom/outrun-syntax",
+  "repository": "https://github.com/jac14b/outrun-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
