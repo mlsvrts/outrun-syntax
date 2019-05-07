@@ -4,11 +4,7 @@ A syntax theme for rainy nights and neon lights.
 
 This theme is brand-new, so expect a few tweaks and updates while I streamline the look, and customize its behavior across various languages.
 
-
-<p float="left">
-  <img src="https://i.imgur.com/AvjekqS.png" width="400" />
-  <img src="https://imgur.com/L44rxsI.png" width="440" height="391" /> 
-</p>
+![](https://i.imgur.com/TZbQ03R.png)
 
 ---
 
