@@ -179,6 +179,10 @@ atom-text-editor {
       color: @purple;
       font-style: italic;
     }
+
+    &.syntax--tag {
+        color: lighten(@grey-blue, 10%);
+    }
   }
 
   &.syntax--section.syntax--embedded {
@@ -227,6 +231,16 @@ atom-text-editor {
   &.syntax--name.syntax--tag {
       color: lighten(@sat-red, 39%);
       .glow(16px, lighten(@red-glow, 4%));
+
+      &.syntax--block {
+          color: lighten(@sat-purple, 13%);
+          .glow(12px, darken(@sat-purple, 12%));
+      }
+
+      &.syntax--inline {
+          color: darken(@bright-blue, 5%);
+          .glow(7px, @blue);
+      }
   }
 
   &.syntax--other.syntax--attribute-name {
@@ -264,6 +278,13 @@ atom-text-editor {
   &.syntax--structure {
       color: lighten(@grey-blue, 20%);
       .glow(2px, @grey-blue);
+  }
+
+  &.syntax--tag {
+      &.syntax--sgml.syntax--doctype {
+          color: @green;
+          .glow(6px, @green);
+      }
   }
 }
 
